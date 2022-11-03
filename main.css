@@ -14,22 +14,15 @@ header{
     height: 3rem;
     position: relative;
     background-color: #ADD8E6;
-    box-shadow: 0 0 10px rgb(0 0 0);
 }
-header .logo{
-    margin-left: 3rem;
-}
-header .logo img{
-    width: 3rem;
-    height: 3rem;
-    border-radius: 3rem;
-}
+
 .hero{
     display: flex;
     width: 100%;
     min-height: 83vh;
     position: relative;
     justify-content: center;
+    align-items: center;
 
 }
 .hero .text{
@@ -87,33 +80,6 @@ header .logo img{
     border-radius: 7px;
     color: white;
 }
-footer {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    height: 5rem;
-    background-color: lightblue;
-    border-top: 2px solid black;
-}
-footer .text p{
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    padding: 8px;
-}
-
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.socials img{
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-}
 @media(max-width:768px) {
     *{
         margin: 0;
@@ -138,9 +104,5 @@ footer .text p{
     }
     .message-generator .box{
         width: 100%;
-    }
-    footer{
-        display: block;
-        width: 600px;
     }
 }
