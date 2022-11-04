@@ -106,3 +106,7 @@ function myFunction(){
     const randomIndex =  Math.ceil(Math.random()*message.length);
     document.getElementById('messages').innerHTML = message[randomIndex];
     }
+    function darkmode(){
+        const element = document.body;
+        element.classList.toggle("dark-mode");  
+    }
